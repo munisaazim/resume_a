@@ -1,0 +1,173 @@
+
+/*Contact*/
+body
+{
+    background-color:#f4eeff;
+    font-family:  'Dosis', sans-serif;
+}
+
+/*Navbar*/
+    .nav_items 
+{
+    height: 60px;
+    background-color:#dcd6f7;
+    position: absolute;
+    right: -25rem;
+    left: 0rem;
+    top:0rem;
+    text-align: left;
+    padding-right:25rem; ;
+
+}
+    li
+{
+    list-style: none;
+    width: 10rem;
+    float: right;
+ 
+}
+.image
+{
+
+    float: left;
+    position: absolute;
+    top: 23px;
+    transform: rotate(15deg);
+}
+.image :hover{
+    transform: rotate(-15deg);
+    transition: transform 0.6s;
+}
+.nav_items a
+{
+    text-decoration: none;
+    letter-spacing: 1px;
+    word-spacing: 2px;
+}
+.nav_items a:hover
+{
+    border-radius: 50%;
+    border: 5px solid #a6b1e1;
+    background-color:  #a6b1e1;
+    width: 100px;
+    height: 100px;
+    box-sizing: border-box;
+    cursor: pointer;
+
+}
+/*Finish navbar*/
+
+/*Main details*/
+.main
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 55px 0 0 0;
+}
+
+.main h1
+{
+    color:#424874;
+    font-family: 'Dosis', sans-serif;
+    font-style: italic;
+    font-weight: 600;
+    letter-spacing: 1px;
+    word-spacing: 2px;
+      
+
+}
+.main_two
+{
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main_three
+{
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/*Finish Main Details*/
+
+/*Form style*/
+
+.details
+{
+
+    border: 2px double #424874;
+    border-radius: 40px 0px 40px 0px;
+    box-sizing: border-box;
+    margin: auto  auto 5rem auto;
+    width: 30rem;
+    padding-bottom:px;
+    height: 260px;
+  
+
+}
+.details form
+{
+    text-align: center;
+  
+}
+.details h3
+{
+    font-weight: 600;
+    text-align: center;
+}
+
+.details input[type=submit]
+{
+  
+    border:0 none ;
+    cursor:pointer;
+    border-radius: 5px; 
+    background-color: #dcd6f7;    
+    font-size: 1rem;
+    letter-spacing: 2;
+    margin-bottom: 35px;
+}
+
+.details input[type=submit]:hover
+{
+   
+   
+    border:8px #a6b1e1 ; 
+
+    background-color: #a6b1e1;
+    border-radius:50%;
+   
+}
+/*Finish form details*/
+
+
+/*Footer*/
+
+.footer
+{
+    height: 80px;
+    background-color:#dcd6f7;
+    position: absolute;
+    right: -25rem;
+    left: -15rem;
+    top:40rem;
+    text-align: center;
+}
+
+.footer h2
+{
+    color:#424874;
+    font-family: 'Dosis', sans-serif;
+    font-style: italic;
+    font-weight: 500;
+    letter-spacing: 1px;
+    word-spacing: 2px;
+    font-size: 20px;
+}
+
+/*Finish footer style*/
+
+
