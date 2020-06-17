@@ -426,7 +426,7 @@ section {
 .min_table_cer{
   position: relative;
   bottom: 26rem;;
-  left:6rem;
+  left:5rem;
 
 } 
 .min_table_cer hr{
@@ -453,7 +453,7 @@ section {
     position: relative;
     bottom: 15rem;
     width: 100%;
-  left:6rem;
+  left:5rem;
 }
 .min_table_lan th{
     padding: 0px 5px;
@@ -467,7 +467,7 @@ section {
 }
 .min_table_lan .cer2 {
     position: relative;
-    left: 5rem
+    left: 5rem;
 }
 .mini_footer
 {
