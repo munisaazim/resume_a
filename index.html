@@ -5,21 +5,32 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Munisa's Resume</title>
-  \
     <link rel="stylesheet" href="style/nav.css">
     <link href="https://fonts.googleapis.com/css2?family=Dosis&display=swap" rel="stylesheet">
 </head>
 
 <body>
+    <div id="sidemenu" class="side-nav">
+      
+     <a href="#">Home</a>
+     <a href="#">Works</a>
+     <a href="#">Contact</a>
+     <a href="#" class="btn-close" onclick="closeSideMenu()">&times;</a>
+    </div>
+    <a class="image2" href="#" onclick="openSideMenu()"><img src="menu.png" alt="" width="40px"
+        height="40px"></a>  
     <div class="nav_items">
         <ul>
-            <li><a href="">Works</a> </li>
-            <li> <a href="contact.html">Contact</a></li>
-            <li> <a href="index.html">Index</a></li>
 
-            <li class="image"> <img src="logo.png" alt="" width="40px" height="40px"></li>
+            <li class="tag"><a href="">Works</a> </li>
+            <li class="tag"> <a href="contact.html">Contact</a></li>
+            <li class="tag"> <a href="index.html">Home</a></li>
+            <a class="image2" href="#" onclick="openSideMenu()"><img src="menu.png" alt="" width="40px"
+                    height="40px"></a>
+          
         </ul>
     </div>
+  <div id ='main'>
     <div class="container">
         <div class="introduction scale-up-center ">
             <table>
@@ -43,29 +54,31 @@
 
         </div>
     </div>
-    <hr>
     <div class="container2">
         <div class="education">
+            <hr>
             <h2><em>Education</em> </h2>
             <ul>
                 <li> Information Technology College</li>
                 <li> <a href="https://inha.uz/" target="_blank">A junior student in INHA University Tashkent</a> </li>
             </ul>
         </div>
+    
+
     </div>
-    <hr>
+ 
 
-
-        <div class="size">
+    <div class="size">
         <div class="certificate1">
+         
             <h2 class="cer1">Certificates</h2>
             <section>
-         
-             
+
+
                 <div class="row">
-                
+
                     <div class="col">
-                        <h3>Platfrom</h3>   
+                        <h3>Platfrom</h3>
                         <div class="col">
                             <p>ITWOMENUZ</p>
                         </div>
@@ -76,8 +89,8 @@
                             <p>Udemy</p>
                         </div>
                     </div>
-                </div> 
-              <br> &nbsp; &nbsp;
+                </div>
+                <br> &nbsp; &nbsp;
                 <div class="row">
                     <div class="col">
                         <h3>Course</h3>
@@ -91,20 +104,19 @@
                             <p>FrontEnd</p>
                         </div>
                     </div>
-                </div> 
-                
+                </div>
+             
             </section>
-       
-            
         </div>
-        
+<div id="cer">
+  
         <div class="certificate">
             <h2 class="cer">Personal skills</h2>
             <section>
                 <div class="row">
-                
+
                     <div class="col">
-                        <h3>Programming language</h3>   
+                        <h3>Programming language</h3>
                         <div class="col">
                             <p>HTML/CSS3</p>
                         </div>
@@ -118,8 +130,8 @@
                             <p>Github collaboration</p>
                         </div>
                     </div>
-                </div> 
-             
+                </div>
+
                 <div class="row">
                     <div class="col1">
                         <h3>Programming skill out of 5 point</h3>
@@ -136,25 +148,84 @@
                             <p>&#11088; &#11088; &#11088; &#11088; &#11088;</p>
                         </div>
                     </div>
-                </div> 
-                
+                </div>
+
             </section>
-       
-            
+
+
         </div>
-        
+        </div>
     </div>
+  <div class="min_table_cer">
+
+    <h2 class="h22">Certificates</h2>
+    <table>
+    
+        <tr>
+      
+        <th>Platform</th>
+        <th>Course</th>
+    </tr>
+    <tr>
+        <td>Nanodegree</td>
+        <td>Web Development</td>
+    </tr>
+    <tr>
+        <td>Udemy</td>
+        <td>Web Development</td>
+    </tr>
+    </table>
+</div>
+
+<div class="min_table_lan">
+    <h2 class="cer2">Personal skills</h2>
+    <table>
+        <tr>
+            <th>Programming <br>languages</th>
+            <th>Programming skill out <br> of 5 point</th>
+        </tr>
+        <tr>
+            <td>HTML/CSS3</td>
+            <td>&#11088; &#11088; &#11088; &#11088; &#11088;</td>
+        </tr>
+        <tr>
+            <td>Bootstrap</td>
+            <td>&#11088; &#11088; &#11088; &#11088; &#11088;</td>
+        </tr>
+        <tr>
+            <td>Github collaboration</td>
+            <td>&#11088; &#11088; &#11088; &#11088; &#11088;</td>
+        </tr>
+    </table>
+ 
+</div>
+
     <div class="footer">
-        <h2>&copy;2020 Munisa Azimkhodjaeva All Rights Reserved  
+        <h2>&copy;2020 Munisa Azimkhodjaeva All Rights Reserved
         </h2>
     </div>
-        
-            <!--<h2> <strong>Additional information</strong></h2>   
+    <div class="mini_footer">
+        <div class="position_footer">
+        <h2>&copy;2020 Munisa Azimkhodjaeva <br> All Rights Reserved
+        </h2>
+    </div>
+    </div>
+</div>
+    <!--<h2> <strong>Additional information</strong></h2>   
     <a href="myworks.html">All works</a> <br>
     <a href="contact.html">Contact Details</a>
     <hr>    
     -->
-     
+  <script>
+      function openSideMenu(){
+          document.getElementById('sidemenu').style.width='200px';
+          document.getElementById('main').style.marginLeft='230px';
+      }
+      function closeSideMenu(){
+        document.getElementById('sidemenu').style.width='0';
+          document.getElementById('main').style.marginLeft='0';
+      }
+  </script>
 </body>
 
 </html>
