@@ -402,6 +402,9 @@ text-align: center;
   }
   @media only screen and (max-width:620px)
   {
+      .education{
+          position: relative;
+      }
 .cer{
     display: none;
     visibility: hidden;
