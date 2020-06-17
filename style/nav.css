@@ -404,6 +404,7 @@ text-align: center;
   {
       .education{
           position: relative;
+          left:1rem;
       }
 .cer{
     display: none;
