@@ -108,6 +108,7 @@ td,li,p
     letter-spacing: 1px;
     word-spacing: 2px;
 }
+
 .container2{
     height: 270px;
     display: flex;
@@ -131,6 +132,33 @@ td,li,p
 }
 
 
+.study {
+    position: relative;
+    position: relative;
+    left: 5rem;
+    margin-top: 0em;
+}
+.study h2{
+left: 5rem;
+position: relative;
+}
+.study th{
+    padding: 0rem;
+    font-style: italic;
+    font-weight: 500;
+    letter-spacing: 1px;
+    word-spacing: 2px;
+    color: #584153;
+}
+.study th>a{
+    text-decoration: none;
+    letter-spacing: 1px;
+    color: #584153;
+}
+.study th>a:hover{
+    background-color: #a6b1e1;
+    color: black;
+}
 .introduction
 {
     display: flex;
@@ -392,20 +420,19 @@ text-align: center;
     .mini_footer{
         display: none;
     }
+    .study{
+        display: none;
+    }
   }
-  @media only screen and (max-width:670px)
-  {
-      
-    /*  .certificate{
-          display: none;
-      }*/
-  }
+
   @media only screen and (max-width:620px)
   {
-      .education{
-          position: relative;
-          left:-10px;
-      }
+     .education{
+         display: none;
+     }
+     .container2{
+         display: none;
+     }
 .cer{
     display: none;
     visibility: hidden;
